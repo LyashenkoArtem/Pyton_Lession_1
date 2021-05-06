@@ -21,11 +21,11 @@ def my_func1():
     num_11 = int(input('Введите положительное действительное число '))
     num_12 = int(input('Введите целое отрицательное число '))
     i = 0
-    b = 0
+    b = 1
     if num_11 > 0 and num_12 < 0:
         d = (-1 * num_12)
         while i < d:
-            b = b + num_11
+            b = b * num_11
             i = i+1
         b = 1 / b
         return b
